@@ -1,0 +1,430 @@
+img {
+    max-width: 100%;
+}
+
+.c-text-font {
+    font-family: serif;
+}
+
+.main-bg-color {
+    background-color: #8EC837;
+}
+
+.main-color {
+    color: #8EC837;
+}
+
+.main-color-2,
+.main-color-2:hover {
+    color: #8EC837;
+}
+
+.c-text-color {
+    color: #474747;
+}
+
+.c-text-color-2,
+.c-text-color-2:hover {
+    color: #a8a8a8;
+}
+
+.icon-hover {
+    color: #ffffff;
+    transition-property: color;
+    transition-delay: .1s;
+    transition-duration: .3s;
+}
+
+.icon-hover:hover {
+    color: #8EC837;
+}
+
+.opacity-8 {
+    opacity: .8;
+}
+
+.opacity-5 {
+    opacity: .5;
+}
+
+.opacity-2 {
+    opacity: .2;
+}
+
+.c-nav-color {
+    background-color: rgba(142, 200, 55, .5);
+}
+
+.c-round {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f7f7f7;
+    transition-property: background, color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.c-round-p:hover .c-round {
+    background-color: #8EC837;
+    color: #ffffff;
+}
+
+.c-nav-color {
+    color: #ffffff;
+}
+
+.c-nav-color:hover {
+    color: black;
+}
+
+.c-text-size {
+    font-size: 2rem;
+}
+
+.c-text-size-2 {
+    font-size: 4rem;
+}
+
+
+.c-dropdown,
+.c-dropdown-1 {
+    position: relative;
+}
+
+.c-dropdown-menu,
+.c-dropdown-menu-1 {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 3rem;
+    left: 0;
+    background-color: rgba(142, 200, 55, .5);
+    transition: all .5s;
+}
+
+.c-dropdown-menu-1 {
+    top: 0;
+    left: 100%;
+}
+
+.c-dropdown-menu li:hover {
+    background-color: #8EC837;
+    transition: all .5s;
+}
+
+.c-dropdown:hover .c-dropdown-menu,
+.c-dropdown-1:hover .c-dropdown-menu-1 {
+    display: block;
+}
+
+.slider {
+    background-image: url(image/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+
+}
+
+.slider .slider-body {
+    padding: 200px 0;
+
+}
+
+.slider .slider-body .footer {
+    margin-top: 50px;
+}
+
+.slider .slider-body .footer button:first-child {
+    background-color: #8EC837;
+    transition: background .5s ease-in-out;
+    border-radius: 14px;
+    padding: 8px 24px;
+    margin-right: 20px;
+}
+
+.slider .slider-body .footer button:first-child:hover {
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.slider .slider-body .footer button:last-child {
+    background-color: transparent;
+    border: 1px solid;
+    transition: background .5s ease-in-out;
+    border-radius: 14px;
+    padding: 8px 24px;
+}
+
+.slider .slider-body .footer button:last-child:hover {
+    background-color: #8EC837;
+}
+
+.c-nav-p {
+    padding: 37px 0;
+}
+
+.cards .container {
+    position: relative;
+}
+
+.card-row {
+    transform: translate(0, -90px);
+}
+
+/* header's card styles start */
+.card-img-hover-1 {
+    position: relative;
+}
+
+.card-img-hover-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(142, 200, 55, .5);
+    cursor: pointer;
+    font-size: x-large;
+    display: none;
+}
+
+.card-img-hover-1:hover .card-img-hover-2 {
+    display: block !important;
+}
+
+/* header's card styles end */
+
+
+
+
+
+
+
+
+/* section-1 style start */
+
+.section-1 {
+    background-image: url(image/bg-9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 .c-round-02 {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: large;
+    text-align: center;
+    background-color: #f7f7f7;
+    transition-property: background, color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.section-1 .c-round-01:hover .c-round-02 {
+    background-color: #8EC837;
+    color: #ffffff;
+}
+
+/* section-1 style end */
+
+
+/* section-2 style start */
+
+.section-2 .card .card-icon i {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+/* section-2 style end */
+
+
+/* section-3 style start */
+
+.section-3 {
+    background-color: #f4f4f4;
+}
+
+.section-3 .h-small {
+    font-size: small;
+}
+
+/* section-3 style end */
+
+
+/* section-4 style start */
+.section-4 {
+    background-image: url(image/bg-7.jpg);
+}
+
+.section-4 .c-round-04 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(image/bg-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .section-4 .c-round-4:hover .c-round-04 {} */
+
+/* section-4 style end */
+
+
+
+
+/* section-5 style start */
+
+.section-5 .admin-link::before {
+    content: "|";
+    color: #474747;
+    opacity: 0.3;
+    margin: 0 .5rem;
+    font-size: 1.1rem;
+
+}
+
+/* section-5 style end */
+
+
+/* footer style start */
+#footer {
+    background-image: url(image/bg-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer .footer-row-1 p {
+    color: #a8a8a8;
+}
+
+#footer .link-group li {
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    transition-property: background, color;
+    transition-duration: .5s;
+}
+
+#footer .input-bg {
+    background-color: rgba(52, 58, 64, .5);
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+
+#footer .input-bg:focus {
+    outline: 0;
+    background-color: #8EC837;
+}
+
+#footer button {
+    background-color: #8EC837;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+
+#footer button:hover {
+    background-color: transparent;
+    color: inherit;
+    border-color: inherit;
+}
+
+#footer button:focus {
+    outline: 0;
+}
+
+.card-img-hover-3 {
+    position: relative;
+}
+
+.card-img-hover-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(142, 200, 55, .5);
+    cursor: pointer;
+    font-size: small;
+    display: none;
+}
+
+.card-img-hover-3:hover .card-img-hover-4 {
+    display: block !important;
+}
+
+/* .icon-group li {
+
+
+} */
+
+/* footer style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .c-w-100 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 300px) {
+
+    .c-mx-autoOnlyForSmall {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .slider .slider-body .c-wSlider h1 {
+        font-size: 3rem;
+    }
+
+    .slider .slider-body .c-wSlider {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .c-mx-autoOnlyForSmall {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
